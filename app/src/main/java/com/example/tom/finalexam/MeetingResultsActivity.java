@@ -30,14 +30,14 @@ public class MeetingResultsActivity extends AppCompatActivity {
         meetingData = dbHandler.getMeeting();
 
         if (meetingData != null){
-            adapter = new MeetingResultsAdapter(this, meetingData);
+            //adapter = new MeetingResultsAdapter(this, meetingData);
         } else {
             adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, noMeeting);
         }
 
-        ListView listView = (ListView) findViewById(R.id.meetingListView);
+        //ListView listView = (ListView) findViewById(R.id.meetingListView);
 
-        listView.setAdapter(adapter);
+        //listView.setAdapter(adapter);
 
 
 

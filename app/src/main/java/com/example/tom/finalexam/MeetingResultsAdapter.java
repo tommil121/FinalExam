@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 /**
  * Created by Tom on 12/8/2015.
- */
+ *
 public class MeetingResultsAdapter extends ArrayAdapter<Meeting>{
 
     Meeting meeting;
@@ -21,7 +21,7 @@ public class MeetingResultsAdapter extends ArrayAdapter<Meeting>{
     TextView timeTextView;
     TextView hostidTextView;
 
-    public MeetingResultsAdapter(Context context, Meeting[] objects){
+    /*public MeetingResultsAdapter(Context context, Meeting[] objects){
         super(context, R.layout.custom_row_meeting, objects);
     }
 
@@ -36,4 +36,4 @@ public class MeetingResultsAdapter extends ArrayAdapter<Meeting>{
 
         return messageView;
     }
-}
+}*/
